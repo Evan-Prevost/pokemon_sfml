@@ -133,7 +133,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="game.cpp" />
+    <ClCompile Include="AnimatedMainCharacter.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="InitWindow.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainCharacter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedMainCharacter.h" />
+    <ClInclude Include="ConfigMainCharacter.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="InitWindow.h" />
+    <ClInclude Include="MainCharacter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Downloads\ACgarRight.png" />
+    <Image Include="..\..\..\..\..\Downloads\ACharDown.png" />
+    <Image Include="..\..\..\..\..\Downloads\ACharLeft.png" />
+    <Image Include="..\..\..\..\..\Downloads\ACharUp.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
