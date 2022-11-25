@@ -1,4 +1,7 @@
-﻿  main.cpp
+﻿  AnimatedMainCharacter.cpp
+  Entity.cpp
+  GameWindow.cpp
+  main.cpp
   MainCharacter.cpp
-  Génération de code en cours...
+  Generating Code...
   game.vcxproj -> C:\Users\lprieu\source\repos\pokemon_sfml\game\x64\Debug\game.exe

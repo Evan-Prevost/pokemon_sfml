@@ -4,12 +4,12 @@
 #include "MainCharacter.h"
 #include "AnimatedMainCharacter.h"
 #include "ConfigMainCharacter.h"
-#include "InitWindow.h"
+#include "GameWindow.h"
 #include "Entity.h"
 
 int main()
 {
-    InitWindow window;
+    GameWindow window;
 
     sf::Texture texture;
     if (!texture.loadFromFile(MAIN_CHARACTER_DOWN_TEXTURE_PATH))

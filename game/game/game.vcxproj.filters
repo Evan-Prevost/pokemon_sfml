@@ -24,7 +24,7 @@
     <ClCompile Include="AnimatedMainCharacter.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="InitWindow.cpp">
+    <ClCompile Include="GameWindow.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="Entity.cpp">
@@ -41,7 +41,7 @@
     <ClInclude Include="ConfigMainCharacter.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="InitWindow.h">
+    <ClInclude Include="GameWindow.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="Entity.h">
@@ -61,5 +61,10 @@
     <Image Include="..\..\..\..\..\Downloads\ACgarRight.png">
       <Filter>Fichiers de ressources</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="menu.txt">
+      <Filter>Fichiers sources</Filter>
+    </Text>
   </ItemGroup>
 </Project>
