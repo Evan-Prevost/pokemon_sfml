@@ -1,10 +1,14 @@
 #include "GameWindow.h"
 
-GameWindow::GameWindow() : _window(sf::VideoMode(1000, 1000), "Pokemon")
+GameWindow::GameWindow() : _window(sf::VideoMode::getDesktopMode(), "Pokemon Like", sf::Style::None)
 {
     this->_window.setFramerateLimit(60);
 
     this->_window.setVerticalSyncEnabled(true);
+
+    this->_view.reset(sf::FloatRect(0.f, 0.f, 240.f, 135.f));
+
+    this->_window.setView(_view);
 }
 
 bool GameWindow::isOpen(void) const
@@ -20,6 +24,11 @@ void GameWindow::handleEvents(void)
         if (event.type == sf::Event::Closed)
             this->_window.close();
     }
+}
+
+void GameWindow::update(void)
+{
+    // deplacement personnage
 }
 
 void GameWindow::clear(void)
